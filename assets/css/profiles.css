@@ -1,0 +1,142 @@
+/*
+FORMATAÇÃO GERAL
+*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*
+FORMATAÇÃO DO CORPO DO SITE
+*/
+
+body {
+
+    background-color: black;
+
+}
+
+/*
+FORMATAÇÃO DA NAVBAR
+*/
+
+.showcase {
+
+	width: 100%;
+	position: relative;
+    padding: 26px 0px 0px 55px;
+
+}
+
+#logo {
+
+    height: 35px;
+
+}
+
+/*
+SECTION PROFILES
+*/
+
+.profiles {
+
+    width: 100%;
+    flex-shrink: 0;
+
+}
+
+.profiles h1 {
+
+    color: white;
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 5vw;
+    font-weight: normal;
+    padding-left: 22vw;
+    padding-right: 22vw;
+    flex-wrap: wrap;
+
+}
+
+.profiles img {
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.profiles img:hover {
+
+    border: 5px solid white;
+    color: white;
+
+}
+
+.profiles a:hover {
+
+    color: white;
+
+}
+
+.profiles__photos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0px 22vw;
+    flex-wrap: wrap;
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.manage__profiles {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+
+}
+
+.manage__profiles button {
+
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.manage__profiles button:hover {
+
+    border: 1px solid white;
+    color: white;
+
+}
+
+.name__profile {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: gray;
+
+}

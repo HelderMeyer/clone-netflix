@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/tab-icon.png">
+    <title>Netflix - Clone</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="./assets/images/netflixlogo.png" alt=""></a>
+        </div>
+    </header>
+    <section class="login__section">
+        <div class="login__box">
+            <h2>Entrar</h2>
+            <form>
+                <div class="input">
+                    <input type="text" placeholder="Email ou número de telefone">
+                </div>
+                <div class="input">
+                    <input type="password" placeholder="Senha">
+                </div>
+                <div class="input">
+                    <a href="profiles.html"><input type="button" class="login__button" value="Entrar"></button></a>
+                </div>
+                <div class="support">
+                    <div class="remember">
+                        <span>
+                            <input type="checkbox">
+                        </span>
+                        <span>
+                            Lembre-se de mim
+                        </span>
+                    </div>
+                    <div class="need__help">
+                        <a href="#">Precisa de ajuda?</a>
+                    </div>
+                </div>
+                <div class="login__footer">
+                    <div class="sign__up">
+                        <p>Novo por aqui? <a href="#">Assine agora.</a></p>
+                    </div>
+                    <div class="terms">
+                        <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a
+                                href="#">Saiba mais.</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__content">
+            <a href="#">Dúvidas? Ligue 0800 591 8942</a>
+            <div class="footer__links">
+                <a href="#">Perguntas frequentes</a>
+                <a href="#">Central de Ajuda</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Privacidade</a>
+            </div>
+            <div class="footer__links2">
+                <a href="#">Preferências de cookies</a>
+                <a href="#">Informações corporativas</a>
+            </div>
+            <select data-uia="language-picker" class="language__picker" id="lang-switcher-select" tabindex="0"
+                placeholder="lang-switcher">
+                <option selected="" lang="pt" value="/?locale=pt-BR" data-language="pt" data-country="BR">Português
+                </option>
+                <option lang="en" value="/?locale=en-BR" data-language="en" data-country="BR">English</option>
+            </select>
+        </div>
+    </footer>
+</body>
+
+</html>
